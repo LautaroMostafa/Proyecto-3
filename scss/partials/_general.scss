@@ -1,0 +1,26 @@
+.main-2 {
+
+    h1 {
+        text-align: center;
+        margin: 25px;
+    }
+
+    section {
+        @include flex;
+
+        .div-1 {
+            display: flex;
+            justify-content: space-around;
+            height: 400px;
+            width: 400px;
+            border: 1px solid black;
+            margin: 30px;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+
+        }
+    }
+}

@@ -29,31 +29,20 @@ body header a:hover {
 }
 .main-2 section {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .main-2 section .div-1 {
   display: flex;
   justify-content: space-around;
-  height: 250px;
-  width: 1000px;
+  height: 400px;
+  width: 400px;
   border: 1px solid black;
   margin: 30px;
 }
 .main-2 section .div-1 img {
   height: 100%;
-  width: 50%;
-}
-.main-2 section .div-1 .div-2 {
-  text-align: center;
-}
-.main-2 section .div-1 .div-2 ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.main-2 section .div-1 .div-2 ul li {
-  margin: 20px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
