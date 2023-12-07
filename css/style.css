@@ -45,4 +45,33 @@ body header a:hover {
   width: 100%;
 }
 
+.main-3 section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.main-3 section div {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 20px;
+  text-align: center;
+}
+.main-3 section div h2 {
+  margin: 5px;
+  color: red;
+  font-family: "Rubik Bubbles", cursive;
+}
+.main-3 section div ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.main-3 section div ul li {
+  margin: 20px;
+  font-family: "Playpen Sans", cursive;
+}
+
 /*# sourceMappingURL=style.css.map */

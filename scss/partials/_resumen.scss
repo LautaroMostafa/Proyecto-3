@@ -1,0 +1,32 @@
+
+
+.main-3{
+    
+    section{
+        @include flex;
+        
+        div{
+            border: 3px solid black;
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            margin: 20px;
+            text-align: center;
+            h2{
+                margin: 5px;
+                color: red;
+                font-family: 'Rubik Bubbles', cursive;
+                
+            }
+            ul{
+                @include flex;
+                margin: 20px;
+                li{
+                    margin: 20px;
+                    font-family: 'Playpen Sans', cursive;
+                }
+            }
+
+        }
+    }
+}
