@@ -11,16 +11,34 @@ body{
     background-color: white;
     header{
         @include flex;
-        background-color: black;
+        background-image: linear-gradient( yellow, orange);
         a{
             padding: 30px 50px;
             margin: 10px;
             text-decoration: none;
             border-radius: 25px;
-            color: white;
+            color: black;
         }
         a:hover{
-            background-color: red;
+            background-color: black;
+            animation-name: cambio-color;
+            animation-iteration-count: infinite;
+            animation-duration: 0.5s;
+
+            @keyframes cambio-color {
+                0%{
+                    color: blue;
+                }
+                25%{
+                    color: aqua;
+                }
+                50%{
+                    color: violet;
+                }
+                90%{
+                    color: green;
+                }
+            }
         }
     }
     
@@ -28,7 +46,7 @@ body{
 
 
 @import "partials/general.scss";
-@import "partials/resumen.scss";
-
-
-
+@import "partials/evidencias.scss";
+@import "partials/objetos.scss";
+@import "partials/guias.scss";
+@import "partials/inicio.scss";

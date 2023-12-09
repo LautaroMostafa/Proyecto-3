@@ -10,17 +10,34 @@ body header {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: black;
+  background-image: linear-gradient(yellow, orange);
 }
 body header a {
   padding: 30px 50px;
   margin: 10px;
   text-decoration: none;
   border-radius: 25px;
-  color: white;
+  color: black;
 }
 body header a:hover {
-  background-color: red;
+  background-color: black;
+  animation-name: cambio-color;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+}
+@keyframes cambio-color {
+  0% {
+    color: blue;
+  }
+  25% {
+    color: aqua;
+  }
+  50% {
+    color: violet;
+  }
+  90% {
+    color: green;
+  }
 }
 
 .main-2 h1 {
@@ -72,6 +89,65 @@ body header a:hover {
 .main-3 section div ul li {
   margin: 20px;
   font-family: "Playpen Sans", cursive;
+}
+
+.container {
+  margin-top: 20px;
+}
+.container .recuadro {
+  margin: 20px;
+  border: 3px solid #000000;
+}
+.container .recuadro .parrafo {
+  text-align: center;
+}
+.container .recuadro .parrafo h2 {
+  color: red;
+}
+.container .recuadro .parrafo ol {
+  color: orange;
+  margin: 5px;
+}
+.container .recuadro .parrafo ol li {
+  margin: 10px;
+  color: black;
+}
+.container .recuadro .img-propia {
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+.container .recuadro:hover {
+  box-shadow: 0 8px 16px rgb(0, 0, 0);
+}
+
+main section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+main section div {
+  width: 300px;
+  margin: 30px;
+  border: 3px solid black;
+}
+main section div h3 {
+  text-align: center;
+  margin: 10px;
+}
+main section div a img {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.main-5 section .holas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
